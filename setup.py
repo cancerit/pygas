@@ -40,7 +40,7 @@ config = {
     "author": "Keiran M Raine",
     "url": "https://github.com/cancerit/pygas",
     "author_email": "cgphelp@sanger.ac.uk",
-    "version": "0.4.3",
+    "version": "1.0.0",
     "license": "AGPL-3.0",
     "python_requires": ">= 3.9",
     "install_requires": ["click", "click-option-group"],

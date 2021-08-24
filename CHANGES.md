@@ -1,5 +1,13 @@
 # CHANGES
 
+## 1.0.0
+
+First public release.
+
+## Releases below this point are not publicly available
+
+These items pre-date migration to github.  History has not been preserved.
+
 ## 0.4.3
 
 - Various corrections on exact matching
