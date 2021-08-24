@@ -4,7 +4,7 @@ python Guide aligned Sequences
 
 [![cancerit](https://circleci.com/gh/cancerit/pygas.svg?style=svg)](https://circleci.com/gh/cancerit/pygas)
 
-- [Docker, Singularity and Dockstore](#docker-singularity-and-dockstore)
+- [Docker and Singularity](#docker-and-singularity)
 - [Command example](#command-example)
   - [Inputs](#inputs)
   - [Output format](#output-format)
