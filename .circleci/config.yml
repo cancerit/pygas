@@ -77,7 +77,10 @@ workflows:
   version: 2.1
   build_test_publish:
     jobs:
-      - license_chk
+      - license_chk:
+          filters:
+            tags:
+              only: /.+/
       - build_docker:
           context:
             - dockerhub-casmservice
