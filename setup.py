@@ -36,6 +36,7 @@ config = {
     "name": "pygas",
     "description": "python Guide aligned Sequences",
     "long_description": open("README.md").read(),
+    "long_description_content_type": "text/markdown",
     "author": "Keiran M Raine",
     "url": "https://github.com/cancerit/pygas",
     "author_email": "cgphelp@sanger.ac.uk",
