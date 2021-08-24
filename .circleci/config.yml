@@ -61,6 +61,7 @@ jobs:
       - run:
           command: |  # create whl, install twine and publish to Test PyPI
             set -e
+            pip install cython
             python setup.py sdist
             sudo pip install pipenv
             pipenv install twine
@@ -73,6 +74,7 @@ jobs:
       - checkout  # checkout source code to working directory
       - run:
           command: |  # create whl, install twine and publish to PyPI
+            pip install cython
             python setup.py sdist
             sudo pip install pipenv
             pipenv install twine
