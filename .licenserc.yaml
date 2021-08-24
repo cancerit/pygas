@@ -79,6 +79,6 @@ header:
     - 'pygas/matrix.c'
     - 'pygas/matrix.html'
     - '.gitlab-ci.yml'
-
+    - 'MANIFEST.in'
 
   comment: on-failure
