@@ -112,8 +112,32 @@ The Docker build includes the unit tests, but removes many of the libraries befo
 
 CI includes 2 additional tests, each based on the 2 datasets in the `./examples` directory.
 
+### Updating licence headers
+
+Please use [skywalking-eyes](https://github.com/apache/skywalking-eyes).
+
+Expected workflow:
+
+1. Check state before modifying `.licenserc.yaml`:
+   - `docker run -it --rm -v $(pwd):/github/workspace apache/skywalking-eyes header check`
+   - You should get some 'valid' here, those without a header as 'invalid'
+1. Modify `.licenserc.yaml`
+1. Apply the changes:
+   - `docker run -it --rm -v $(pwd):/github/workspace apache/skywalking-eyes header fix`
+1. Add/commit changes
+
+This is executed in the CI pipeline.
+
+*DO NOT* edit the header in the files, please modify the date component of `content` in `.licenserc.yaml`.  The exceptions being:
+
+- `README.md`
+- `pygas/matrix.pyc`
+  - You will need to manually update, but the checks will accept it once updated
+
+If you need to make more extensive changes to the license carefully test the pattern is functional.
+
 ```
-Copyright (C) 2021
+Copyright (c) 2021
 
 Author: CASM/Cancer IT <cgphelp@sanger.ac.uk>
 

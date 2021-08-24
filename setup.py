@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# Copyright (C) 2021
+# Copyright (c) 2021
 #
 # Author: CASM/Cancer IT <cgphelp@sanger.ac.uk>
 #
