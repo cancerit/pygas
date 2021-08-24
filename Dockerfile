@@ -39,6 +39,7 @@ ENV VIRTUAL_ENV=$OPT/venv
 RUN python3.9 -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
+COPY README.md .
 COPY pygas/ pygas/
 COPY setup.py requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
