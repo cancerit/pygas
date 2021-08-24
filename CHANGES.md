@@ -1,5 +1,9 @@
 # CHANGES
 
+## 1.0.1
+
+Primarily teething issues with CI/CD.
+
 ## 1.0.0
 
 First public release.
