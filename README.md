@@ -2,6 +2,9 @@
 
 python Guide aligned Sequences
 
+[![cancerit](https://circleci.com/gh/cancerit/pygas.svg?style=svg)](https://circleci.com/gh/cancerit/pygas)
+
+- [Docker, Singularity and Dockstore](#docker-singularity-and-dockstore)
 - [Command example](#command-example)
   - [Inputs](#inputs)
   - [Output format](#output-format)
@@ -12,6 +15,13 @@ python Guide aligned Sequences
   - [Local `pre-commit` hooks](#local-pre-commit-hooks)
   - [Docker testing](#docker-testing)
   - [CI tests](#ci-tests)
+
+## Docker and Singularity
+
+There are pre-built images containing this codebase on [quay.io](quay-repo).  When pulling an image you must specify
+the version there is no `latest`.
+
+The docker images are known to work correctly after import into a singularity image.
 
 ## Command example
 

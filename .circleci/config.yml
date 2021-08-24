@@ -41,7 +41,7 @@ jobs:
 
             mkdir -p test-results/pytest/
             container_id=$(docker run -d --rm $IMAGE_NAME:$CLEAN_BRANCH pygas sleep 1000)
-            docker cp $container_id:/var/www/c_sar_denarius/junit.xml  test-results/pytest/junit.xml
+            docker cp $container_id:/var/www/pygas/junit.xml  test-results/pytest/junit.xml
             docker rm -f $container_id
 
             if [ "$CIRCLE_TAG" = "$BRANCH_OR_TAG" ]; then
