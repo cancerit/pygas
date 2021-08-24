@@ -18,7 +18,7 @@ python Guide aligned Sequences
 
 ## Docker and Singularity
 
-There are pre-built images containing this codebase on [quay.io](quay-repo).  When pulling an image you must specify
+There are pre-built images containing this codebase on [quay.io][quay-repo].  When pulling an image you must specify
 the version there is no `latest`.
 
 The docker images are known to work correctly after import into a singularity image.
@@ -169,5 +169,6 @@ identical to a statement that reads ‘Copyright (c) 2005, 2006, 2007, 2008,
 
 <!-- refs -->
 
+[quay-repo]: https://quay.io/repository/wtsicgp/pygas?tab=tags
 [sam-opts]: https://samtools.github.io/hts-specs/SAMtags.pdf
 [sam-spec]: https://samtools.github.io/hts-specs/SAMv1.pdf
