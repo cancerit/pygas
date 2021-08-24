@@ -1,8 +1,8 @@
 # CHANGES
 
-## 1.0.1, 1.0.2
+## 1.0.1 - 1.0.3
 
-Primarily teething issues with CI/CD.
+Teething issues with CI/CDand PyPi
 
 ## 1.0.0
 

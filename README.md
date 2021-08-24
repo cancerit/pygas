@@ -15,6 +15,8 @@ python Guide aligned Sequences
   - [Local `pre-commit` hooks](#local-pre-commit-hooks)
   - [Docker testing](#docker-testing)
   - [CI tests](#ci-tests)
+  - [Updating licence headers](#updating-licence-headers)
+- [LICENSE](#license)
 
 ## Docker and Singularity
 
@@ -135,6 +137,8 @@ This is executed in the CI pipeline.
   - You will need to manually update, but the checks will accept it once updated
 
 If you need to make more extensive changes to the license carefully test the pattern is functional.
+
+## LICENSE
 
 ```
 Copyright (c) 2021
