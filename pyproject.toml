@@ -16,3 +16,7 @@ min_confidence = 80
 paths = ["pygas"]
 sort_by_size = true
 verbose = false
+
+[build-system]
+requires = ["setuptools", "wheel", "Cython>=0.29.21"]
+build-backend = "setuptools.build_meta"
